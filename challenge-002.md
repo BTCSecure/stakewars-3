@@ -210,5 +210,5 @@ journalctl -n 100 -f -u neard | ccze -A
 
 #### Проверьте статус работы ноды валидатора. Если отображается “Validator”, значит ваш пул стал валидатором.
 ***
-⏪[Challenge 001](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-001.md)     | ⏩[Challenge 003](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-003.md)
+⏪[Challenge 001](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-001.md)     | [Challenge 003](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-003.md)⏩
 ---|---:
