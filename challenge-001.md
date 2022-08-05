@@ -14,7 +14,7 @@
 
 Выбор выделенного сервера
 ===
-Далее необходимо развернуть **NEAR-CLI** на сервере, который мы приобрели в Challenge 005.
+Далее необходимо развернуть **NEAR-CLI** на сервере, который мы приобрели в [Challenge 005](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-005.md).
 
 Установка NEAR-CLI
 ===
