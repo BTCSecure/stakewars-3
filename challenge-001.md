@@ -5,12 +5,12 @@
 Для этого проделываем следующие шаги:
  Шаги | Скриншоты 
 ----------------|----------------------
-1). Нажимаем на кнопку “**Создать учетную запись**”:       | ![Создание учетой записи](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.1%20-%20wallet.png)
-2). Указываем **имя** для учетной записи:       | ![Имя учетной записи](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.2%20-%20wallet.png)
-3). Выбор метода восстановления учетной записи, рекомендуем использовать **мнемоническую фразу**:   | ![Выбор метода восстановления](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.3%20-%20wallet.png)
-4). Записываем мнемоническую фразу в надежное место       | ![Мнемоническая фраза](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.4.1%20-%20wallet.png)
-5). Проходим проверку:    | ![Проверка](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.5.1%20-%20wallet.png)
-6). Получаем доступ к учетной записи:    | ![Доступ к учетной записи](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.6%20-%20wallet.png)
+1️⃣ Нажимаем на кнопку “**Создать учетную запись**”:       | ![Создание учетой записи](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.1%20-%20wallet.png)
+2️⃣ Указываем **имя** для учетной записи:       | ![Имя учетной записи](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.2%20-%20wallet.png)
+3️⃣ Выбор метода восстановления учетной записи, рекомендуем использовать **мнемоническую фразу**:   | ![Выбор метода восстановления](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.3%20-%20wallet.png)
+4️⃣ Записываем мнемоническую фразу в надежное место       | ![Мнемоническая фраза](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.4.1%20-%20wallet.png)
+5️⃣ Проходим проверку:    | ![Проверка](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.5.1%20-%20wallet.png)
+6️⃣ Получаем доступ к учетной записи:    | ![Доступ к учетной записи](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.6%20-%20wallet.png)
 
 Выбор выделенного сервера
 ===
@@ -18,19 +18,19 @@
 
 Установка NEAR-CLI
 ===
-Для начала, давайте убедимся, что машина Linux обновлена:
+* Для начала, давайте убедимся, что машина Linux обновлена:
 ```
 sudo apt update && sudo apt upgrade -y
 ```
 ***
-Далее установим `Node.js` и `npm`:
+* Далее установим `Node.js` и `npm`:
 ```
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt install -y build-essential nodejs
 PATH="$PATH"
 ```
 ***
-Проверяем версию `Node.js` и `npm`:
+* Проверяем версию `Node.js` и `npm`:
 ```
 node -v
 ```
@@ -42,12 +42,12 @@ npm -v
 ```
 >⚠️ **Требуемая версия _v8.x.x_ или выше**
 ***
-А теперь переходим к непосредственной установке NEAR-CLI:
+* Переходим к непосредственной установке NEAR-CLI:
 ```
 sudo npm install -g near-cli
 ```
 ***
-Т.к. этот гайд предназначен для сети **shardnet**, пишем команды:
+* Т.к. этот гайд предназначен для сети **shardnet**, пишем команды:
 ```
 export NEAR_ENV=shardnet
 ```
