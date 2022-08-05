@@ -63,4 +63,5 @@ source $HOME/.bash_profile
 * `near validators current`: показывает валидаторов в текущей эпохе;
 * `near validators next`: показывает валидаторов, которые станут валидировать в следующей эпохе.
 ***
-⏩Перейти к [Challenge 002](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-002.md)
+⏪[Оглавление](https://github.com/BTCSecure/stakewars-3/tree/main#readme)     | [Challenge 002](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-002.md)⏩
+---|---:
