@@ -1,16 +1,64 @@
-СОЗДАНИЕ КОШЕЛЬКА
+Создание кошелька
 ===
 В первую очередь нам нужно создать кошелек по этому адресу — <https://wallet.shardnet.near.org/>
 
-Для этого проделываем данные шаги:
-  |  
+Для этого проделываем следующие шаги:
+ Шаги | Скриншоты 
 ----------------|----------------------
-Нажимаем на кнопку “**Создать учетную запись**”:       | Пустой файл каскадной таблицы стилей, в который производится сбока необходимых стилей
-reset.css       | Reset CSS от Эрика Мейера
-normalize.css   | Нормалайзер CSS от Nicolas Gallagher
-block.css       | Основные стили блоков системы
-addition.css    | Дополнительные стили
-fontawesome.css | Стили иконочного шрифта
-layout.css      | Основные стили, применительно к определённому сайту
-lightbox.css    | Стили лайтбокса, если таковой используется
-index.html      | Индексный файл для проверки вносимых изменений
+1). Нажимаем на кнопку “**Создать учетную запись**”:       | ![Создание учетой записи](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.1%20-%20wallet.png)
+2). Указываем **имя** для учетной записи:       | ![Имя учетной записи](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.2%20-%20wallet.png)
+3). Выбор метода восстановления учетной записи:   | ![Выбор метода восстановления](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.3%20-%20wallet.png)
+4). Указываем **мнемоническую фразу**       | ![Мнемоническая фраза](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.4.1%20-%20wallet.png)
+5). Проходим проверку:    | ![Проверка](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.5.1%20-%20wallet.png)
+6). Получаем доступ к учетной записи:    | ![Доступ к учетной записи](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.6%20-%20wallet.png)
+
+Выбор выделенного сервера
+===
+Далее необходимо развернуть **NEAR-CLI** на сервере, который мы приобрели в Challenge 005.
+
+Установка NEAR-CLI
+===
+Для начала, давайте убедимся, что машина Linux обновлена:
+```
+sudo apt update && sudo apt upgrade -y
+```
+***
+Далее установим `Node.js` и `npm`:
+```
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install -y build-essential nodejs
+PATH="$PATH"
+```
+***
+Проверяем версию `Node.js` и `npm`:
+```
+node -v
+```
+>⚠️ **Требуемая версия _v18.x.x_ или выше**
+
+
+```
+npm -v
+```
+>⚠️ **Требуемая версия _v8.x.x_ или выше**
+***
+А теперь переходим к непосредственной установке NEAR-CLI:
+```
+sudo npm install -g near-cli
+```
+***
+Т.к. этот гайд предназначен для сети **shardnet**, пишем команды:
+```
+export NEAR_ENV=shardnet
+```
+
+```
+echo 'export NEAR_ENV=shardnet' >> ~/.bashrc
+echo 'export NEAR_ENV=shardnet' >> ~/.bash_profile 
+source $HOME/.bash_profile
+```
+***
+После завершения, мы сможем пользоваться базовыми командами **NEAR-CLI**, такими как:
+* `near proposals`: показывает предложение валидаторов;
+* `near validators current`: показывает валидаторов в текущей эпохе;
+* `near validators next`: показывает валидаторов, которые станут валидировать в следующей эпохе.
