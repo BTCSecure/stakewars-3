@@ -7,8 +7,8 @@
 ----------------|----------------------
 1). Нажимаем на кнопку “**Создать учетную запись**”:       | ![Создание учетой записи](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.1%20-%20wallet.png)
 2). Указываем **имя** для учетной записи:       | ![Имя учетной записи](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.2%20-%20wallet.png)
-3). Выбор метода восстановления учетной записи:   | ![Выбор метода восстановления](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.3%20-%20wallet.png)
-4). Указываем **мнемоническую фразу**       | ![Мнемоническая фраза](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.4.1%20-%20wallet.png)
+3). Выбор метода восстановления учетной записи, рекомендуем использовать **мнемоническую фразу**:   | ![Выбор метода восстановления](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.3%20-%20wallet.png)
+4). Записываем мнемоническую фразу в надежное место       | ![Мнемоническая фраза](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.4.1%20-%20wallet.png)
 5). Проходим проверку:    | ![Проверка](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.5.1%20-%20wallet.png)
 6). Получаем доступ к учетной записи:    | ![Доступ к учетной записи](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.6%20-%20wallet.png)
 
