@@ -4,7 +4,7 @@
 
 Пример команды:
 ```
-near call factory.shardnet.near create_staking_pool '{"staking_pool_id": "<pool id>", "owner_id": "<accountId>", "stake_public_key": "<public key>", "reward_fee_fraction": {"numerator": 5, "denominator": 100}, "code_hash":"DD428g9eqLL8fWUxv8QSpVFzyHi1Qd16P8ephYCTmMSZ"}' --accountId="<accountId>" --amount=30 --gas=300000000000000
+near call factory.shardnet.near create_staking_pool '{"staking_pool_id": "<pool id>", "owner_id": "<accountId>", "stake_public_key": "<public key>", "reward_fee_fraction": {"numerator": 5, "denominator": 100}, "code_hash":"5if1dPtovQ9pMd1CacZVmBHhU13szy7jKoZyKYkGdeba"}' --accountId="<accountId>" --amount=30 --gas=300000000000000
 ```
 
 Из примера выше следует, что вам нужно заменить:
