@@ -17,6 +17,14 @@ near call factory.shardnet.near create_staking_pool '{"staking_pool_id": "<pool 
 
 > *Убеждаемся, что на аккаунте есть 30 NEAR — это минимум, необходимый для хранения.*
 
+* Наша команда для запуска пула:
+```
+near call factory.shardnet.near create_staking_pool '{"staking_pool_id": "btcsecure.factory.shardnet.near", "owner_id": "<accountId>", "stake_public_key": " ed25519:AbskEuvTEx9GvGz9CFLdqfPzgHiSVnJ2C6QwoPyExFYo", "reward_fee_fraction": {"numerator": 5, "denominator": 100}, "code_hash":"DD428g9eqLL8fWUxv8QSpVFzyHi1Qd16P8ephYCTmMSZ"}' --accountId="btcsecure.shardnet.near" --amount=30 --gas=300000000000000
+```
+
+### Стейкинг пул успешно создан!
+![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-003/19.1.png)
+***
 Чтобы изменить параметры пула, например, изменить размер взимаемой комиссии на 1%, используем эту команду:
 ```
 near call <pool_name> update_reward_fee_fraction '{"reward_fee_fraction": {"numerator": 1, "denominator": 100}}' --accountId <account_id> --gas=300000000000000
@@ -56,6 +64,8 @@ near call <staking_pool_id> withdraw '{"amount": "<amount yoctoNEAR>"}' --accoun
 near call <staking_pool_id> withdraw_all --accountId <accountId> --gas=300000000000000
 ```
 
+#### Мы можем видеть наши вызовы смарт-контрактов в [эксплорере](https://explorer.shardnet.near.org/accounts/btcsecure.shardnet.near)
+### ЗДЕСЬ ДОЛЖЕН БЫТЬ СКРИН
 Пинг
 ===
 Пинг выдает новое предложение и обновляет баланс ставок для ваших делегатов. Для поддержания актуальности сообщений о вознаграждениях следует проводить пинг каждую эпоху.
