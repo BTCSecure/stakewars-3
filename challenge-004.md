@@ -9,7 +9,7 @@ journalctl -n 100 -f -u neard | ccze -A
 * Пример лога:
 Validator | 1 validator
 ```
-INFO stats: #85079829 H1GUabkB7TW2K2yhZqZ7G47gnpS7ESqicDMNyb9EE6tf Validator 73 validators 30 peers ⬇ 506.1kiB/s ⬆ 428.3kiB/s 1.20 bps 62.08 Tgas/s CPU: 23%, Mem: 7.4 GiB
+INFO stats: #85079829 H1GUabkB7TW2K2yhZqZ7G47gnpS7ESqicDMNyb9EE6tf Validator | 73 validators 30 peers ⬇ 506.1kiB/s ⬆ 428.3kiB/s 1.20 bps 62.08 Tgas/s CPU: 23%, Mem: 7.4 GiB
 ```
 > - **Validator**: означает, что вы являетесь активным валидатором
 > - **73 validators**: всего 73 валидатора в сети
