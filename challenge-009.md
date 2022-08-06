@@ -13,9 +13,9 @@ sudo iptables -L | grep 3030
 sudo iptables -A INPUT -p tcp --dport 3030 -j ACCEPT
 ```
 
-* Сохраняем конфиг и для этого есть два решения:
+**Сохраняем конфиг и для этого есть два решения:**
 
-### Использование `iptables-persistent`:
+#### 1. Использование `iptables-persistent`:
 * Команда
 
 ```
@@ -28,7 +28,7 @@ sudo apt install iptables-persistent
 sudo dpkg-reconfigure iptables-persistent
 ```
 
-### Использование файлов:
+#### 2. Использование файлов:
 ```
 iptables-save > /etc/iptables/rules.v4
 ip6tables-save > /etc/iptables/rules.v6
