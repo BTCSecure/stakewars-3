@@ -65,7 +65,7 @@ near call <staking_pool_id> withdraw_all --accountId <accountId> --gas=300000000
 ```
 
 ### Мы можем видеть наши вызовы смарт-контрактов в [эксплорере](https://explorer.shardnet.near.org/accounts/btcsecure.shardnet.near)
-![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-003/20.png)
+![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-003/22.png)
 
 Пинг
 ===
