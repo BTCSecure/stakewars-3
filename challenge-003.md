@@ -64,7 +64,7 @@ near call <staking_pool_id> withdraw '{"amount": "<amount yoctoNEAR>"}' --accoun
 near call <staking_pool_id> withdraw_all --accountId <accountId> --gas=300000000000000
 ```
 
-#### Мы можем видеть наши вызовы смарт-контрактов в [эксплорере](https://explorer.shardnet.near.org/accounts/btcsecure.shardnet.near)
+### Мы можем видеть наши вызовы смарт-контрактов в [эксплорере](https://explorer.shardnet.near.org/accounts/btcsecure.shardnet.near)
 ![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-003/20.png)
 
 Пинг
