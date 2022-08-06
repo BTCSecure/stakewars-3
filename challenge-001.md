@@ -59,9 +59,10 @@ source $HOME/.bash_profile
 ```
 ***
 После завершения, мы сможем пользоваться базовыми командами **NEAR-CLI**, такими как:
-* `near proposals`: показывает предложение валидаторов;
-* `near validators current`: показывает валидаторов в текущей эпохе;
-* `near validators next`: показывает валидаторов, которые станут валидировать в следующей эпохе.
+`near proposals`: показывает предложение валидаторов     | ![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.8%20-%20proposals.png)
+:---:|:---:
+`near validators current`: показывает валидаторов в текущей эпохе     | ![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.7%20-%20current.png)
+`near validators next`: показывает валидаторов, которые станут валидировать в следующей эпохе     | ![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.9%20-%20next.png)
 ***
 ⏪[Оглавление](https://github.com/BTCSecure/stakewars-3/tree/main#readme)     | [Challenge 002](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-002.md)⏩
 ---|---:
