@@ -52,6 +52,10 @@ cat $HOME/logs/all.log
 
 **Пример работы пинга:**
 ![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-006/2.png)
+
+Ссылка на наш аккаунт:
+
+<https://explorer.shardnet.near.org/accounts/btcsecure.shardnet.near>
 ***
 ⏪[Challenge 005](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-005.md)     | [Challenge 007](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-007.md)⏩
 ---|---:
