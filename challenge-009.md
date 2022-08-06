@@ -33,7 +33,7 @@ sudo dpkg-reconfigure iptables-persistent
 iptables-save > /etc/iptables/rules.v4
 ip6tables-save > /etc/iptables/rules.v6
 ```
-
+***
 ### Убедимся, что порт открыт, посетив адрес:
 [http://<NODE_IP>:3030/status](http://<NODE_IP>:3030/status)
 > Где **<NODE_IP>** — это IP адрес ноды.
