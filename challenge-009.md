@@ -1,4 +1,4 @@
-# Uptime monitoring
+# Uptime monitor
 * Check your current uptime and manage it to above 70% on ShardNet
 * Fix issues with producing chunks.
 See the [troubleshooting guide](https://github.com/near/stakewars-iii/blob/main/challenges/troubleshooting.md)
