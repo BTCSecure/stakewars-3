@@ -18,10 +18,10 @@
 ## [Challenge 005](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-005.md)
 * [Выбор и настройка выделенного сервера](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-005.md#%D0%BF%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B0-vps)
 ## [Challenge 006](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-006.md)
-* [Автоматизация пинга](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-005.md#%D0%BF%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B0-vps)
+* [Ping automatization](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-005.md#%D0%BF%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B0-vps)
 ## Challenge 007
 * ToDo
 ## Challenge 008
 * ToDo
 ## [Challenge 009](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-009.md)
-* [Мониторинг аптайма](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-009.md#%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3-%D0%B0%D0%BF%D1%82%D0%B0%D0%B9%D0%BC%D0%B0)
+* [Uptime monitoring](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-009.md#%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3-%D0%B0%D0%BF%D1%82%D0%B0%D0%B9%D0%BC%D0%B0)
