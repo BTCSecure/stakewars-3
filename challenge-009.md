@@ -1,47 +1,51 @@
-# Мониторинг аптайма
-### Открываем порт 3030 для диагностических отчетов
+# Uptime monitoring
+* Check your current uptime and manage it to above 70% on ShardNet
+* Fix issues with producing chunks.
+See the [troubleshooting guide](https://github.com/near/stakewars-iii/blob/main/challenges/troubleshooting.md)
+* Implement monitoring scripts
+### Open Port 3030 for Diagnostic reporting
 
-* Проверяем, открыт ли порт 3030:
+* Check to see if PORT 3030 is open:
 
 ```
 sudo iptables -L | grep 3030
 ```
 
-* Открываем порт, если он закрыт:
+* Open the port if not open:
 
 ```
 sudo iptables -A INPUT -p tcp --dport 3030 -j ACCEPT
 ```
 
-**Сохраняем конфиг и для этого есть два решения:**
+**Save the config for server restarts. You can use one of the 2 solutions:**
 
-#### 1. Использование `iptables-persistent`:
-* Команда
+#### 1. Using `iptables-persistent`:
+* Command
 
 ```
 sudo apt install iptables-persistent
 ```
 
-* Или если он уже установлен
+* Or if already installed
 
 ```
 sudo dpkg-reconfigure iptables-persistent
 ```
 
-#### 2. Использование файлов:
+#### 2. Using files:
 ```
 iptables-save > /etc/iptables/rules.v4
 ip6tables-save > /etc/iptables/rules.v6
 ```
 ***
-### Убедимся, что порт открыт, посетив адрес:
+### Validate the port is open by visiting:
 [http://<NODE_IP>:3030/status](http://<NODE_IP>:3030/status)
-> Где **<NODE_IP>** — это IP адрес ноды.
+> **<NODE_IP>** — ip-address of your node.
 > 
-> *В некоторых случаях порт также может потребоваться открыть у провайдера или в файерволле датацентра*
+> ***NOTE**: In some cases the port may also need to be opened in your cloud provider / datacenter firewall.*
 
-#### Адрес ноды btcsecure: <http://65.109.22.107:3030/status>
-#### Место в лидерборде: <https://openshards.io/shardnet-uptime-scoreboard/>
+#### btcsecure: <http://65.109.22.107:3030/status>
+#### leaderboard: <https://openshards.io/shardnet-uptime-scoreboard/>
 
 ![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-009/21-Leaderboard.png)
 ***
