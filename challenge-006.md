@@ -1,10 +1,10 @@
-Автоматизация пинга
+Ping automatization
 ===
-Создаем задачу `cron` на машине, на которой запущен валидатор, которая позволяет автоматически пинговать сеть.
+Create a `cron` task on the machine running node validator that allows ping to network automatically.
 
-### Шаги
-* Создаем новый файл по пути `/home/<USER_ID>/scripts/ping.sh`
-> Где **&#60;USER_ID&#62;** — имя вашего пользователя
+### Steps
+* Create a new file on `/home/<USER_ID>/scripts/ping.sh`
+> **&#60;USER_ID&#62;** — username
 
 ```
 #!/bin/sh
@@ -21,39 +21,39 @@ near validators current | grep $POOLID >> $LOGS/all.log
 near validators next | grep $POOLID >> $LOGS/all.log
 ```
 
-* Создаем папку, где будут храниться логи:
+* Create logs folder:
 ```
 mkdir $HOME/logs
 ```
 
-* Изменяем разрешение на выполнение для файла `ping.sh`:
+* Change execute permission for `ping.sh` file:
 ```
 chmod +x $HOME/scripts/ping.sh
 ```
 
-* Создаем новый `crontab`, запускаемый каждые 2 часа:
+* Create a new `crontab`, running every 2 hours:
 ```
 crontab -e
 0 */2 * * * sh /home/<USER_ID>/scripts/ping.sh
 ```
 
-* Посмотреть работает ли `crontab`, можно этой командой:
+* List `crontab` to see it is running:
 ```
 crontab -l
 ```
 
-* Посмотреть логи можно тут:
+* Review your logs:
 ```
 cat $HOME/logs/all.log
 ```
 
-**Пример логов:**
+**Logs example:**
 ![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-006/1.png)
 
-**Пример работы пинга:**
+**Ping example:**
 ![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-006/2.png)
 
-**Ссылка на наш аккаунт:**
+**Link to our account:**
 <https://explorer.shardnet.near.org/accounts/btcsecure.shardnet.near>
 ***
 ⏪[Challenge 005](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-005.md)     | [Challenge 007](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-007.md)⏩
