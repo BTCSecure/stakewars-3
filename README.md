@@ -36,6 +36,8 @@
 
 #### На этом оформление и покупка сервера для NEAR завершена.
 ***
+### ⏫[Вернуться к оглавлению](https://github.com/BTCSecure/stakewars-3/blob/main/guide.md#%D0%BF%D0%BE%D1%88%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D1%83-%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%82%D0%BE%D1%80%D0%B0-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8-shardnet)
+***
 Создание кошелька
 ===
 В первую очередь нам нужно создать кошелек по этому адресу — <https://wallet.shardnet.near.org/>
@@ -49,7 +51,9 @@
 4️⃣ Записываем мнемоническую фразу в надежное место       | ![Мнемоническая фраза](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.4.1%20-%20wallet.png)
 5️⃣ Проходим проверку:    | ![Проверка](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.5.1%20-%20wallet.png)
 6️⃣ Получаем доступ к учетной записи:    | ![Доступ к учетной записи](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.6%20-%20wallet.png)
-
+***
+### ⏫[Вернуться к оглавлению](https://github.com/BTCSecure/stakewars-3/blob/main/guide.md#%D0%BF%D0%BE%D1%88%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D1%83-%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%82%D0%BE%D1%80%D0%B0-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8-shardnet)
+***
 Установка NEAR-CLI
 ===
 * Для начала, давайте убедимся, что машина Linux обновлена:
@@ -99,7 +103,8 @@ source $HOME/.bash_profile
 `near validators current`: показывает валидаторов в текущей эпохе     | ![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.7%20-%20current.png)
 `near validators next`: показывает валидаторов, которые станут валидировать в следующей эпохе     | ![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-001/0.9%20-%20next.png)
 ***
-
+### ⏫[Вернуться к оглавлению](https://github.com/BTCSecure/stakewars-3/blob/main/guide.md#%D0%BF%D0%BE%D1%88%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D1%83-%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%82%D0%BE%D1%80%D0%B0-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8-shardnet)
+***
 Настройка ноды
 ===
 * Перед началом работы убедимся, что наша машина имеет нужные характеристики:
@@ -197,6 +202,8 @@ cd ~/nearcore
 ```
 ![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-002/4.png)
 **Теперь нода запущена, и вы можете видеть логи в консоли. Ваша нода должна найти пиры, загрузить хедеры до 100%, а затем загружать блоки.**
+***
+### ⏫[Вернуться к оглавлению](https://github.com/BTCSecure/stakewars-3/blob/main/guide.md#%D0%BF%D0%BE%D1%88%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D1%83-%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%82%D0%BE%D1%80%D0%B0-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8-shardnet)
 ***
 Становимся валидатором
 ===
@@ -312,7 +319,8 @@ journalctl -n 100 -f -u neard | ccze -A
 
 #### Проверьте статус работы ноды валидатора. Если отображается “Validator”, значит ваш пул стал валидатором.
 ***
-
+### ⏫[Вернуться к оглавлению](https://github.com/BTCSecure/stakewars-3/blob/main/guide.md#%D0%BF%D0%BE%D1%88%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D1%83-%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%82%D0%BE%D1%80%D0%B0-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8-shardnet)
+***
 Установка стейкинг пула
 ===
 Стейкинг пул — это смарт-контракт, развернутый на учетной записи NEAR. Вызов команды стейкинг пула, создает пул с указанным именем и развертывает его на указанный `accountId`.
@@ -351,7 +359,9 @@ near call btcsecure.factory.shardnet.near update_reward_fee_fraction '{"reward_f
 
 #### Теперь мы, наконец, настроили наш стейкинг пул
 Проверить появился ли пул в списке можно по этой [ссылке](https://explorer.shardnet.near.org/nodes/validators).
-
+***
+### ⏫[Вернуться к оглавлению](https://github.com/BTCSecure/stakewars-3/blob/main/guide.md#%D0%BF%D0%BE%D1%88%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D1%83-%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%82%D0%BE%D1%80%D0%B0-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8-shardnet)
+***
 Инструкция по транзакциям
 ===
 * Депозит и стейкинг NEAR:
@@ -381,7 +391,9 @@ near call <staking_pool_id> withdraw_all --accountId <accountId> --gas=300000000
 
 ### Мы можем видеть наши вызовы смарт-контрактов в [эксплорере](https://explorer.shardnet.near.org/accounts/btcsecure.shardnet.near)
 ![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-003/22.png)
-
+***
+### ⏫[Вернуться к оглавлению](https://github.com/BTCSecure/stakewars-3/blob/main/guide.md#%D0%BF%D0%BE%D1%88%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D1%83-%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%82%D0%BE%D1%80%D0%B0-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8-shardnet)
+***
 Пинг
 ===
 Пинг выдает новое предложение и обновляет баланс ставок для ваших делегатов. Для поддержания актуальности сообщений о вознаграждениях следует проводить пинг каждую эпоху.
@@ -421,7 +433,8 @@ near call <staking_pool_id> pause_staking '{}' --accountId <accountId>
 near call <staking_pool_id> resume_staking '{}' --accountId <accountId>
 ```
 ***
-
+### ⏫[Вернуться к оглавлению](https://github.com/BTCSecure/stakewars-3/blob/main/guide.md#%D0%BF%D0%BE%D1%88%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D1%83-%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%82%D0%BE%D1%80%D0%B0-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8-shardnet)
+***
 Мониторинг
 ===
 ### Логи
@@ -469,6 +482,8 @@ curl -s -d '{"jsonrpc": "2.0", "method": "validators", "id": "dontcare", "params
 ```
 curl -s -d '{"jsonrpc": "2.0", "method": "validators", "id": "dontcare", "params": [null]}' -H 'Content-Type: application/json'http://localhost:3030/ | jq -c '.result.current_validators[] | select(.account_id | contains ("<POOLID>"))'
 ```
+***
+### ⏫[Вернуться к оглавлению](https://github.com/BTCSecure/stakewars-3/blob/main/guide.md#%D0%BF%D0%BE%D1%88%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D1%83-%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%82%D0%BE%D1%80%D0%B0-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8-shardnet)
 ***
 Подключение мониторинга
 ===
@@ -562,3 +577,4 @@ crontab -l
 
 #### На этом настройка скрипта завершена.
 ***
+### ⏫[Вернуться к оглавлению](https://github.com/BTCSecure/stakewars-3/blob/main/guide.md#%D0%BF%D0%BE%D1%88%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D1%83-%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%82%D0%BE%D1%80%D0%B0-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8-shardnet)
