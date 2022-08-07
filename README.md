@@ -18,7 +18,7 @@
 ## [Challenge 005](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-005.md)
 * [Выбор и настройка выделенного сервера](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-005.md#%D0%BF%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B0-vps)
 ## [Challenge 006](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-006.md)
-* [Ping automatization](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-005.md#%D0%BF%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B0-vps)
+* [Ping automatization](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-006.md#ping-automatization)
 ## Challenge 007
 * ToDo
 ## Challenge 008
