@@ -116,3 +116,6 @@ In the logs of the **BACKUP** node you should see "Validator |"
 **Our example for backup node:**
 
 ![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-013/ch13-backup-005-final.png)
+***
+⏪[Challenge 009](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-009.md)     | [Challenge 014](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-014.md)⏩
+---|---:
