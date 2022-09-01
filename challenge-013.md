@@ -1,4 +1,4 @@
-### Backup node
+# Backup node
 
 In case of missed blocks or chunks, the validator can be 
 removed from the active validation set in the next auction. If you want 
@@ -11,8 +11,6 @@ migration, or you must maintain/scale the server, we also recommend
 migrating your validator keys to the backup node.
 
 Always analyze your node activities and be ready to determine a problem and move the *main validator* keys to the **backup** node.
-
-### 
 
 ### Validator keys migration
 
