@@ -70,6 +70,8 @@ near tx-status <hash> --accountId <accountid>.shardnet.near
 
 **In confirmation that we have done everything correctly, we will see the following:**
 ![](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-008/23-smart.png)
-
+***
+⏪[Challenge 006](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-006.md)     | [Challenge 009](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-009.md)⏩
+:---|---:
 
 
