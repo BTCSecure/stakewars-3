@@ -208,9 +208,8 @@ If everything is fine, then you will see a message.
 
 [http://65.109.22.107:3000/d/rYdddlPWkgg/near?orgId=1&refresh=30s&from=now-24h&to=now](http://65.109.22.107:3000/d/rYdddlPWkgg/near?orgId=1&refresh=30s&from=now-24h&to=now)
 
-### Login: Guest
-
-### Password: 123
+**Login: Guest
+Password: 123**
 
 ### Software dashboard screen:
 
