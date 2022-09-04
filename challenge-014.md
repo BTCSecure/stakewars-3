@@ -151,5 +151,5 @@ echo "NEAR node was started" | ts
 
 ![ch14-backup-004-1.png](https://github.com/BTCSecure/stakewars-3/blob/main/images/challenge-014/ch14-backup-004-1.png)
 ***
-⏪[Challenge 013](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-013.md)     | [Challenge 013](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-013.md)⏩
+⏪[Challenge 013](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-013.md)     | [Challenge 019](https://github.com/BTCSecure/stakewars-3/blob/main/challenge-019.md)⏩
 :---|---:
